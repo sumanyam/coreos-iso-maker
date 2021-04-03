@@ -7,7 +7,8 @@ netmask: 255.255.255.0
 # KVM default ens3
 # Libvirt default enp1s0
 # Intel NUC default eno1
-interface: ens192
+#interface: ens192
+interface: ens3
 #interface2: ens224
 dns: 
   - 192.168.0.1
@@ -20,7 +21,8 @@ webserver_ignition_path: ignition
 
 # Drive to install RHCOS
 # Libvirt - can be vda
-install_drive: sda
+#install_drive: sda
+install_drive: vda
 
 # Chose the binary architecture
 # x86_64 or ppc64le

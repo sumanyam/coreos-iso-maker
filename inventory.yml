@@ -3,67 +3,67 @@ all:
   children:
     bootstrap:
       hosts:
-        bootstrap.devocp4.hyd.paassystems.xyz:
+        bootstrap.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.51
     
     master:
       hosts:
-        master1.devocp4.hyd.paassystems.xyz:
+        master1.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.52
 
-        master2.devocp4.hyd.paassystems.xyz:
+        master2.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.53
 
-        master3.devocp4.hyd.paassystems.xyz:
+        master3.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.54
         
     worker:
       hosts:
-        infra1.devocp4.hyd.paassystems.xyz:
+        infra1.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.55
 
-        infra1.devocp4.hyd.paassystems.xyz:
+        infra1.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.56
 
-        logmon1.devocp4.hyd.paassystems.xyz:
+        logmon1.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.57
 
-        logmon2.devocp4.hyd.paassystems.xyz:
+        logmon2.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.58
 
-        logmon3.devocp4.hyd.paassystems.xyz:
+        logmon3.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.59
 
-        worker1.devocp4.hyd.paassystems.xyz:
+        worker1.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.60
 
-        worker2.devocp4.hyd.paassystems.xyz:
+        worker2.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.61
 
-        worker3.devocp4.hyd.paassystems.xyz:
+        worker3.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.62
 
-        worker4.devocp4.hyd.paassystems.xyz:
+        worker4.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.63
 
-        worker5.devocp4.hyd.paassystems.xyz:
+        worker5.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.64
 
-        worker6.devocp4.hyd.paassystems.xyz:
+        worker6.ocp47.hyd.paassystems.xyz:
           dhcp: false
           ipv4: 192.168.0.65
 ...
