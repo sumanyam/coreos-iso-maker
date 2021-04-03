@@ -3,33 +3,67 @@ all:
   children:
     bootstrap:
       hosts:
-        bootstrap_node.example.com:
+        bootstrap.devocp4.hyd.paassystems.xyz:
           dhcp: false
-          ipv4: 192.168.122.15
+          ipv4: 192.168.0.51
     
     master:
       hosts:
-        master1.example.com:
+        master1.devocp4.hyd.paassystems.xyz:
           dhcp: false
-          ipv4: 192.168.122.20
+          ipv4: 192.168.0.52
 
-        master2.example.com:
+        master2.devocp4.hyd.paassystems.xyz:
           dhcp: false
-          ipv4: 192.168.122.21
+          ipv4: 192.168.0.53
 
-        master3.example.com:
-          ipv4: 192.168.122.22
+        master3.devocp4.hyd.paassystems.xyz:
+          dhcp: false
+          ipv4: 192.168.0.54
         
     worker:
       hosts:
-        worker1.example.com:
-          dhcp: true
-          ipv4: 192.168.122.30
-
-        worker2.example.com:
+        infra1.devocp4.hyd.paassystems.xyz:
           dhcp: false
-          ipv4: 192.168.122.31
+          ipv4: 192.168.0.55
 
-        worker3.example.com:
-          ipv4: 192.168.122.32
+        infra1.devocp4.hyd.paassystems.xyz:
+          dhcp: false
+          ipv4: 192.168.0.56
+
+        logmon1.devocp4.hyd.paassystems.xyz:
+          dhcp: false
+          ipv4: 192.168.0.57
+
+        logmon2.devocp4.hyd.paassystems.xyz:
+          dhcp: false
+          ipv4: 192.168.0.58
+
+        logmon3.devocp4.hyd.paassystems.xyz:
+          dhcp: false
+          ipv4: 192.168.0.59
+
+        worker1.devocp4.hyd.paassystems.xyz:
+          dhcp: false
+          ipv4: 192.168.0.60
+
+        worker2.devocp4.hyd.paassystems.xyz:
+          dhcp: false
+          ipv4: 192.168.0.61
+
+        worker3.devocp4.hyd.paassystems.xyz:
+          dhcp: false
+          ipv4: 192.168.0.62
+
+        worker4.devocp4.hyd.paassystems.xyz:
+          dhcp: false
+          ipv4: 192.168.0.63
+
+        worker5.devocp4.hyd.paassystems.xyz:
+          dhcp: false
+          ipv4: 192.168.0.64
+
+        worker6.devocp4.hyd.paassystems.xyz:
+          dhcp: false
+          ipv4: 192.168.0.65
 ...
